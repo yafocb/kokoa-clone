@@ -1,3 +1,3 @@
 # Kokoa Clone Update
 
-For my study
+HTML & CSS For my study
