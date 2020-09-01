@@ -26,13 +26,13 @@ body {
   opacity: 0.7;
 }
 
-#login-form {
+.login-form {
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
 }
 
-#login-form input {
+.login-form input {
   border: none;
   padding: 15px 0px;
   font-size: 18px;
@@ -41,15 +41,15 @@ body {
   transition: border-color 0.3s ease-in-out;
 }
 
-#login-form input::placeholder {
+.login-form__input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
 
-#login-form input:focus:not([type="submit"]) {
+.login-form__input:focus:not([type="submit"]) {
   border-color: var(--yellow);
 }
 
-#login-form input[type="submit"] {
+.login-form__btn[type="submit"] {
   border: none;
   background-color: var(--yellow);
   cursor: pointer;
@@ -57,7 +57,7 @@ body {
   border-radius: 5px;
 }
 
-#login-form a {
+.login-form__a {
   text-align: center;
   text-decoration: none;
   color: inherit;
