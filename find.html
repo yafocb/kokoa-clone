@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Talk</title>
+    <title>Find - Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -45,57 +45,58 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span class="badged-cog"><i class="fas fa-cog fa-lg"></i><span class="badge badge-sm"></span>
+        <span><i class="fas fa-cog fa-lg"></i><span class="badge badge-sm"></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i>
-      Friend's Names Display <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://avatars3.githubusercontent.com/u/60887477?s=400&u=f0718339472c42e5271dde090b3d1801b572cad4&v=4"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">MoonLight</h4>
-            <!-- <h6 class="user-component__subtitle">fffff</h6> -->
-          </div>
+    <main class="main-screen">
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fas fa-qrcode"></i><span>QR Code</span>
         </div>
-        <div class="user-component__column"></div>
+        <div class="find-icons__icon">
+          <i class="far fa-address-book"></i><span>Add by Contacts</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fas fa-fingerprint"></i><span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="far fa-envelope"></i><span>Invite</span>
+        </div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span><i class="fas fa-chevron-up fa-sm"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/9f/0e/df/9f0edf33-0176-a304-d7d1-c8a9fe09ab9e/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/246x0w.png"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
-            </div>
+      <div class="recomended-friends">
+          <h6 class="recomended-friends__title">Recomended Friends</h6>
+        <span>You have not recomended friends.</span>
+      </div>
+      <div class="open-chat">
+          <div class="open-chat__header">
+              <h4 class="open-chat__title">Open Chat</h4>
+              <span>Go to OpenChat Home <i class="fas fa-chevron-right fa-xs channel-chevron"></i
+                ></span>
           </div>
-          <div class="user-component__column">
-            <div>
-              <span
-                >2<i class="fas fa-chevron-right fa-xs channel-chevron"></i
-              ></span>
-            </div>
+          <div class="open-post">
+              <div class="open-post__column">
+                  <h5 class="open-post__title">#BTS</h5>
+                  <h6 class="open-post__hashtags">#bts#army#friends</h6>
+                  <div class="open-post__members">
+                      <img src="https://lh3.googleusercontent.com/KwGCiEolNEeR9Q4RFOnDtb8Pvqs3LNiQEdE07wMCnoULO3yLUprHbGGLBYNEt8k7WJY" alt="">
+                      <span class="open-post__member-count">882 members</span>
+                      <div class="divider"></div>
+                      <span class="open-post__member-status">Active</span>
+                  </div>
+              </div>
+              <div class="open-post__column">
+                <div class="open-post__photo">
+                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/dbb514f1-469b-479e-b5ba-3ac0f09a2776-profile_image-300x300.png" alt="">
+                <div class="open-post__heart-count">
+                    <i class="fas fa-heart fa-xs"></i> <span>326</span>
+                </div>
+                </div>
+              </div>
           </div>
-        </div>
       </div>
     </main>
 
@@ -103,7 +104,7 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
