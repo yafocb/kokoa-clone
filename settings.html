@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Talk</title>
+    <title>Settings - Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -44,60 +44,42 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i><span class="badge badge-sm"></a></span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"> <i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"></i>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="icon-row">
-        <div class="icon-row__icon">
-          <i class="fas fa-qrcode"></i><span>QR Code</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="far fa-address-book"></i><span>Add by Contacts</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-fingerprint"></i><span>Add by ID</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="far fa-envelope"></i><span>Invite</span>
-        </div>
-      </div>
-      <div class="recomended-friends">
-          <h6 class="recomended-friends__title">Recomended Friends</h6>
-        <span>You have not recomended friends.</span>
-      </div>
-      <div class="open-chat">
-          <div class="open-chat__header">
-              <h4 class="open-chat__title">Open Chat</h4>
-              <span>Go to OpenChat Home <i class="fas fa-chevron-right fa-xs channel-chevron"></i
-                ></span>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notice</span>
           </div>
-          <div class="open-post">
-              <div class="open-post__column">
-                  <h5 class="open-post__title">#KST</h5>
-                  <h6 class="open-post__hashtags">#kst#yapyap#friends</h6>
-                  <div class="open-post__members">
-                      <img src="https://lh3.googleusercontent.com/KwGCiEolNEeR9Q4RFOnDtb8Pvqs3LNiQEdE07wMCnoULO3yLUprHbGGLBYNEt8k7WJY" alt="">
-                      <span class="open-post__member-count">882 members</span>
-                      <div class="divider"></div>
-                      <span class="open-post__member-status">Active</span>
-                  </div>
-              </div>
-              <div class="open-post__column">
-                <div class="open-post__photo">
-                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/dbb514f1-469b-479e-b5ba-3ac0f09a2776-profile_image-300x300.png" alt="">
-                <div class="open-post__heart-count">
-                    <i class="fas fa-heart fa-xs"></i> <span>326</span>
-                </div>
-                </div>
-              </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>Kokoa Lab</span>
           </div>
-      </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-exclamation-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">Lastest Version</div>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
